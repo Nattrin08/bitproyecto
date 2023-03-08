@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fefbe9;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  background-color: #d0f0c6 ;
+  height: 100px;
+}
+
+.logo{
+  float: left;
+  margin-left: 1%;
+}
+
+.menu {
+  float:right ;
+  margin: 40px;
+}
+
+.menu li {
+list-style: none;
+display: inline;
+}
+
+.menu a {
+  color: rgb(2, 2, 2);
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+.cat {
+  padding: 50px;
+}
+
+.titucat{
+  font-family:  Helvetica;
+  color: rgb(73, 73, 73);
+}
+
+.vermas {
+  border: solid;
+  border-color: rgb(73, 73, 73);
+  line-height: 45px;
+  
+}
+
+.vermas:hover {
+  opacity: 0.3;
+}
+
+.titucat {
+  font-size: 30px;
+  line-height: 150%;
+}
+
+.banner {
+  background-image: url(../assets/VYPZVR55GRC5JKLG3HOFP7HR3Q.jpg);
+  background-position: top left;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-color: #9EBADF;
+  color: #E1EEDD;
+}
+
+.banner h1 {
+  text-align: right;
+  font-size: 60px;
+  padding: 150px 50px;
+}
+
+footer {
+  background-color:#fefbe9;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.prefooter{
+  height: 250px;
+  background-color: #183a1d;
+  
+}
+
+.contactos{
+    padding-top: 50px;
+    float: left;
+    margin-left: 3%;
+    font-size: 20px;
+    color: white;
+    font-family:  Helvetica;
+    line-height: 150%;
+  }
+
+.escri {
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.redes { 
+  padding-top: 45px;
+  float: right;
+  margin-right: 7%;
+  font-size: 40px;
+  color: white;
+  font-family:  Helvetica;
+  line-height: 150%;
+}
